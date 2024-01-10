@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: #333333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: #445161;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    height: 323px;
+    color: #ffffff;
+    padding: 0 50px 0 0;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    padding-left: 40px;
+}
+
+.title_fonts {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about {
+    text-align: left;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.item_fonts {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.item_about_product {
+    padding: 50px 50px 50px 50px;
+}
+
+table {
+    padding: 50px;
+}
+
+td {
+    padding: 5px 5px 20px 5px;
+    vertical-align: top;
+}
+
+#pluses_product, #reviews {
+    background-color: #f5f5f5;
+}
+
+.title_scrinshots {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445162;
+}
+
+.blockquote {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+    padding: 5px 5px 5px 25px;
+}
+.blockquote_fon {
+    background: url(../image/bg_review_195.png) no-repeat;
+    background-size: 100% 100%;   
+}
+
+.cite {
+    color: #989898;
+}
+
+.container_buy {
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.card_buy {
+    background-color: #445162;
+    width: 300px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.price {
+    width: 296px;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    line-height: 36px;
+    color: #445162;
+    margin-left: 2px;
+    padding: 15px 0 15px 0;
+}
+
+.card_btn{
+    background-color: white;
+    width: 260px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+    color: #445162;
+}
+
+.card_title{
+    font-size: 24px;
+    line-height: 35px;
+    padding: 10px 0 10px 0;
+
+}
+
+.card_text{
+    text-align: left;  
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px;
+}
+
+.title_footer{ 
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+input, textarea {
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 500px; 
+    height: 170px;
+    color: #445162;
+    margin-top: 10px;
+}
+
+Input {
+    height: 41px;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #445162;
+    color: #ffffff;
+    padding: 25px;
+}
+
+#container_footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.form {
+    text-align: center;
+}
+
+.footer_icon {
+    display: flex;
+    padding: 10px 50px 50px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+} 
+
+.icon {
+    margin-top: 30px;
+}
